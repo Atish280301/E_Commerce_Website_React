@@ -29,9 +29,10 @@
 .CartItem{
     display: flex;
     justify-content: space-around;
+    flex-direction: row;
     align-items: center;
     margin: 10px;
-    background: rgb(169, 233, 255);
+    background: rgb(71, 206, 251);
     border-radius: 10px;
 }
 .TotalAmount{
