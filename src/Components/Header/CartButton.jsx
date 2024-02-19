@@ -1,8 +1,8 @@
 import React from "react";
-const CartButton = () => {
+const CartButton = (props) => {
     return (
         <>
-            <button className="BTN">
+            <button className="BTN" onClick={props.ShowCart}>
                 <p>Cart</p>
                 <p>0</p>
             </button>

@@ -1,7 +1,7 @@
 import React from "react";
 import '../Style/Header.css';
 import CartButton from "./CartButton";
-const Header = () => {
+const Header = (props) => {
     return (
         <>
             <div className="Header">
@@ -11,7 +11,7 @@ const Header = () => {
                     <button className="BTN">About</button>
                 </div>
                 <div className="Btn-Box">
-                    <CartButton />
+                    <CartButton ShowCart={props.OnShowCart} />
                 </div>
             </div>
         </>
