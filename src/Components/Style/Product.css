@@ -1,0 +1,22 @@
+.ProductBox{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 40px;
+}
+.Product{
+    border: 2px solid rgb(175, 175, 175);
+    border-radius: 10px;
+    padding: 10px;
+}
+.Content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 5px;
+}
+.BTN1{
+    display: block;
+    margin: 0 auto;
+}
